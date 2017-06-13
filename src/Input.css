@@ -1,0 +1,25 @@
+.Input-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid gray;
+    width: 200px;
+}
+
+.Input-wrapper-error {
+    border-bottom: 2px solid red;
+}
+
+.Input-label {
+    color: dimgray;
+}
+
+.Input-field {
+    font-size: 15px;
+    margin: 15px 0;
+    border: 0;
+    outline: 0
+}
+
+.Input-field-error {
+    color: red;
+}
